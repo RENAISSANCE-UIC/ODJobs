@@ -10,7 +10,7 @@ involving nanomaterial antimicrobials, the package provides robust analytical wo
 that are equally applicable to traditional small molecule antimicrobials.
 
 To install:
-The latest version can be found on [GitHub](https://github.com/CodeDepotIV/sTabl3R)](https://github.com/RENAISSANCE-UIC/ODJobs), and installed using `devtools`.
+The latest version can be found on [GitHub](https://github.com/RENAISSANCE-UIC/ODJobs), and installed using `devtools`.
 
 ``` r
 if (!require(devtools)) install.packages("devtools")

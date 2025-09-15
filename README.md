@@ -9,6 +9,8 @@ developed to support Minimum Inhibitory Concentration (MIC) determination studie
 involving nanomaterial antimicrobials, the package provides robust analytical workflows 
 that are equally applicable to traditional small molecule antimicrobials.
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17128031.svg)](https://doi.org/10.5281/zenodo.17128031)
+
 To install:
 The latest version can be found on [GitHub](https://github.com/RENAISSANCE-UIC/ODJobs), and installed using `devtools`.
 

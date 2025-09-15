@@ -1,0 +1,35 @@
+Package: ODJobs
+Title: Automated Analysis of Microbial Growth Kinetics for Antimicrobial Susceptibility Testing
+Version: 0.9.9.9
+Authors@R: 
+    person(given = "William", "Ackerman", , "weackerm@uic.edu", role = c("aut", "cre"),
+    comment = c(ORCID = "0000-0001-7366-3903"))
+Description: ODJobs is a specialized R package designed for the automated processing and analysis of timestamped optical density data from 96-well plate readers, with particular focus on bacterial growth kinetics in antimicrobial susceptibility testing. Originally developed to support Minimum Inhibitory Concentration (MIC) determination studies involving nanomaterial antimicrobials, the package provides robust analytical workflows that are equally applicable to traditional small molecule antimicrobials.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
+Imports: 
+    dplyr,
+    ggplot2,
+    janitor,
+    lubridate,
+    magrittr,
+    patchwork,
+    plotly,
+    readr,
+    readxl,
+    rlang,
+    shiny,
+    shinydashboard,
+    shinyWidgets,
+    stringr,
+    tidyr,
+    viridis,
+    writexl
+Depends: 
+    tidyverse
+Suggests: 
+    testthat (>= 3.0.0),
+    withr
+Config/testthat/edition: 3

@@ -528,16 +528,15 @@ check_replicate_structure(results)
 
 ### Data Quality Issues
 
-\`\`\`r# Comprehensive diagnostics diagnose_data_issues(results\$corrected_results)
+```r
+# Comprehensive diagnostics
+diagnose_data_issues(results\$corrected_results)
 
 # Check for problematic wells
-
 diagnose_problematic_wells(results\$corrected_results)
 
 # Quick data overview
-
 quick_check(results) explore_data(results\$corrected_results)
-
 ```         
 
 ### Common Solutions
@@ -551,7 +550,8 @@ quick_check(results) explore_data(results\$corrected_results)
 ### Support and Diagnostics
 
 ### For comprehensive analysis support:
-```r# File format help
+```r
+# File format help
 detect_plate_reader_with_preview("your_file.csv")
 
 # Data structure exploration  
